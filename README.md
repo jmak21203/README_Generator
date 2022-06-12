@@ -1,10 +1,8 @@
-# test
+# README Generator
   ![Github license](http://img.shields.io/badge/license-MIT-blue.svg)
 
-
-
   ## Description
-    test  
+    This application allows a user to input specific information to quickly generate a professional README file.  
 
   ## Table of Contents
   * [Install](#install)
@@ -15,18 +13,17 @@
   * [GitHub](#gitHub)
   * [Email](#email)
 
-
 ## Install
- ls
+ The user should clone the repository from GitHub. The user will also need to download Node.JS. 
 ## Usage
- df
+ Initialize the program in Terminal. Then answers questions when prompted to generate necessary data for file.
 ## Contribution
- df
+ contributors should read installation instructions.
 ## Test 
- df
+ NPM Test
 ## License
  * This application is covered under MIT.
 
 ## Contact
-* [Github](https://github.com/df)
-* Email: df
+* [Github](https://github.com/jmak21203)
+* Email: hernandez.margaritoc@gmail.com

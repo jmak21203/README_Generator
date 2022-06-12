@@ -50,6 +50,12 @@ const questions = [
         name: 'fileName',
         message: 'What do you want to call this readme?',
     },
+    {
+        type: 'list',
+        message: 'Select License',
+        choices: ['MIT', 'GNU', 'Apache'],
+        name: 'license',
+    }
 
 ];
 // TODO: Create a function to write README file
@@ -67,7 +73,7 @@ const init = () => {
             fs.writeFileSync('readme.md', md(answers))
         })
 
-        .then(() => console.log('Successfully wrote to index.html'))
+        .then(() => console.log('Successfully created your README file!'))
         .catch((err) => console.error(err));
 };
 
